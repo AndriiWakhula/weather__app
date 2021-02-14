@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(360deg, #3594bf 0%, rgba(255, 255, 255, 0) 100%),
+    #53a6cb;
+  font-family: Roboto, sans-serif;
+}
+
+.forecast__icon {
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+.main__icon {
+  width: 70px;
+  height: 70px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  margin: 10px auto;
+}
+
+.icon__01n,
+.icon__01d {
+  background-image: url("../src/assets/images/01d.png");
+}
+
+.icon__02n,
+.icon__02d {
+  background-image: url("../src/assets/images/02d.png");
+}
+
+.icon__03n,
+.icon__03d {
+  background-image: url("../src/assets/images/03d.png");
+}
+
+.icon__04n,
+.icon__04d {
+  background-image: url("../src/assets/images/04d.png");
+}
+
+.icon__09n,
+.icon__09d {
+  background-image: url("../src/assets/images/09d.png");
+}
+
+.icon__10n,
+.icon__10d {
+  background-image: url("../src/assets/images/10d.png");
+}
+
+.icon__11n,
+.icon__11d {
+  background-image: url("../src/assets/images/11d.png");
+}
+
+.icon__13n,
+.icon__13d {
+  background-image: url("../src/assets/images/13d.png");
+}
+
+.icon__50n,
+.icon__50d {
+  background-image: url("../src/assets/images/50d.png");
+}

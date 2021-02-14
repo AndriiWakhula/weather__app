@@ -1,0 +1,23 @@
+.weather__inner {
+    max-width: 900px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 1em;
+    position: relative;
+
+    button {
+        position: absolute;
+        top: 3em;
+        left: 20px;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        background-image: url(./../../assets/images/arrow-right-solid.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: none;
+        outline: none;
+        transform: rotate(180deg);
+    }
+}

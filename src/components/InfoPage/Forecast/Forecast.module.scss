@@ -1,0 +1,20 @@
+.Forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.item {
+    text-align: center;
+}
+
+.time,
+.icon {
+    margin-bottom: 1em;
+}
+
+
+
+.temperatura {
+    font-size: 1.5em;
+}
